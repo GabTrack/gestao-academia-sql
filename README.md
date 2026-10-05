@@ -1,6 +1,6 @@
 # Projeto de Banco de Dados MySQL
 
-Este repositório contém o script completo de modelagem, povoamento e consultas analíticas para o sistema de gestão de treinos e pagamentos.
+Este repositório contém o script completo de modelagem, inserção e consultas analíticas para o sistema de gestão de treinos e pagamentos.
 
 ## 🛠️ Tecnologias Utilizadas
 * **SGBD:** MySQL
@@ -14,7 +14,7 @@ Este repositório contém o script completo de modelagem, povoamento e consultas
 
 ## 🚀 Como Executar
 1. Clone este repositório.
-2. Execute os ficheiros em ordem num cliente MySQL:
+2. Execute as pastas em ordem em um cliente MySQL:
    ```bash
    mysql -u utilizador -p banco_dados < 01_estrutura.sql
    mysql -u utilizador -p banco_dados < 02_dados.sql
